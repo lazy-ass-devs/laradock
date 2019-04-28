@@ -16,22 +16,22 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
 Copy the envrionment file.
 ```
 cp env-example .env
 ```
+Setup your MySQL configuration after copying the environment file.
+
 Install docker images that will be used in this project.
 ```
 sudo docker-compose up -d
 ```
 
-## Deployment
-Be patient it will install all the dependencies.
-
+## Contributing
 Follow these steps to orchestrate the projects
 https://laradock.io/getting-started
 
 Primarily, we will implement multiple projects
 https://laradock.io/getting-started/#b-setup-for-multiple-projects
+
+Update the [lazyassdevs-compose.yml](https://github.com/lazy-ass-devs/laradock/blob/master/lazyassdevs-compose.yml) file when you want to add docker images.
